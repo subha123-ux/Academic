@@ -1,5 +1,5 @@
 import CourseCard from "../components/CourseCard";
-import "../styles/Courses.css";
+import "../Styles/Courses.css";
 
 function Courses() {
 

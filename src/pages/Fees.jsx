@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Fees.css";
+import "../Styles/Fees.css";
 
 function Fees() {
 
