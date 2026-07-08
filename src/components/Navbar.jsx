@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import ThemeToggle from "./ThemeToggle";
-import "../styles/Navbar.css";
+import "../Styles/Navbar.css";
 
 function Navbar() {
 
