@@ -1,0 +1,300 @@
+Hero
+
+/* .hero{
+    background:linear-gradient(135deg,#2563eb,#0f172a);
+    color:white;
+    padding:90px 0;
+}
+
+.hero-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+} */
+
+.hero{
+    background:linear-gradient(135deg,#2563eb,#0f172a);
+    padding:50px 0;
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:30px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h1{
+    font-size:50px;
+    color:white;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hero-text span{
+    color:#ffd54f;
+}
+
+.hero-text p{
+    color:#f3f3f3;
+    font-size:18px;
+    margin-bottom:35px;
+    line-height:1.8;
+}
+
+.enroll-btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#ffd54f;
+    color:#0f172a;
+    font-weight:700;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.enroll-btn:hover{
+    transform:translateY(-5px);
+    background:white;
+}
+
+.hero-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:500px;
+    height:auto;
+    display:block;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
+
+/* Statistics */
+
+.stats{
+    padding:70px 0;
+    background:#f5f8ff;
+}
+
+.stats-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.stat-card{
+    background:white;
+    text-align:center;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-8px);
+}
+
+.stat-card h2{
+    color:#2563eb;
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.stat-card p{
+    font-size:18px;
+}
+
+/* Why */
+
+.why{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:40px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.why-card{
+    background:white;
+    padding:35px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    font-size:45px;
+    transition:.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-10px);
+}
+
+.why-card h3{
+    margin:20px 0;
+    font-size:24px;
+}
+
+.why-card p{
+    font-size:16px;
+    color:#666;
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.hero-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:42px;
+}
+
+.stats-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.why-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.hero-text h1{
+    font-size:34px;
+}
+
+.hero-text p{
+    font-size:16px;
+}
+
+.stats-container{
+    grid-template-columns:1fr;
+}
+
+.why-grid{
+    grid-template-columns:1fr;
+}
+
+.section-title{
+    font-size:32px;
+}
+
+}
+
+
+/* Hero Section */
+
+.hero{
+    background: linear-gradient(135deg,#2563eb,#0f172a);
+    color: white;
+    padding: 50px 0;   /* Reduced from 90px */
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;         /* Reduced from 50px */
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.hero-text h1{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.hero-text p{
+    color: #f3f3f3;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+/* Hero Image */
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img{
+    width: 100%;
+    max-width: 550px;      /* Adjust image size */
+    height: auto;
+    display: block;        /* Removes inline image gap */
+    margin: 0;             /* Removes default spacing */
+    padding: 0;
+    border-radius: 15px;   /* Optional */
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.hero-container{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.hero-text h1{
+    font-size: 42px;
+}
+
+.hero-image img{
+    max-width: 450px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+    padding: 40px 0;
+}
+
+.hero-text h1{
+    font-size: 34px;
+}
+
+.hero-text p{
+    font-size: 16px;
+}
+
+.hero-image img{
+    max-width: 100%;
+}
+
+}

@@ -1,0 +1,188 @@
+/* ===========================
+        Fees Section
+=========================== */
+
+.fees{
+    padding:80px 0;
+    background:#f8fbff;
+    min-height:100vh;
+}
+
+.fees-title{
+    text-align:center;
+    font-size:42px;
+    font-weight:700;
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+.fees-location{
+    text-align:center;
+    font-size:18px;
+    color:#2563eb;
+    font-weight:600;
+    margin-bottom:40px;
+}
+
+/* ===========================
+        Table
+=========================== */
+
+.table-container{
+    overflow-x:auto;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    overflow:hidden;
+}
+
+thead{
+    background:#0f3d91;
+}
+
+thead th{
+    color:white;
+    padding:18px;
+    font-size:17px;
+    font-weight:600;
+    white-space:nowrap;
+}
+
+tbody td{
+    padding:16px;
+    text-align:center;
+    border-bottom:1px solid #e5e7eb;
+    color:#374151;
+}
+
+tbody tr:nth-child(even){
+    background:#f8fafc;
+}
+
+tbody tr:hover{
+    background:#e0f2fe;
+    transition:0.3s;
+}
+
+/* ===========================
+        Notes
+=========================== */
+
+.fee-notes{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.note-card{
+    background:#fff;
+    padding:20px;
+    border-left:5px solid #2563eb;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    font-size:17px;
+    transition:.3s;
+}
+
+.note-card:hover{
+    transform:translateY(-5px);
+}
+
+/* ===========================
+        Dark Mode
+=========================== */
+
+body.dark-mode .fees{
+    background:#111827;
+}
+
+body.dark-mode .fees-title{
+    color:#ffffff;
+}
+
+body.dark-mode .fees-location{
+    color:#60a5fa;
+}
+
+body.dark-mode .table-container{
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+body.dark-mode table{
+    background:#1f2937;
+}
+
+body.dark-mode thead{
+    background:#2563eb;
+}
+
+body.dark-mode thead th{
+    color:#fff;
+}
+
+body.dark-mode tbody td{
+    color:#f1f5f9;
+    border-bottom:1px solid #374151;
+}
+
+body.dark-mode tbody tr{
+    background:#1f2937;
+}
+
+body.dark-mode tbody tr:nth-child(even){
+    background:#273549;
+}
+
+body.dark-mode tbody tr:hover{
+    background:#334155;
+}
+
+body.dark-mode .note-card{
+    background:#1f2937;
+    color:#fff;
+    border-left-color:#60a5fa;
+}
+
+body.dark-mode .note-card:hover{
+    background:#273549;
+}
+
+/* ===========================
+        Responsive
+=========================== */
+
+@media(max-width:768px){
+
+.fees{
+    padding:60px 0;
+}
+
+.fees-title{
+    font-size:30px;
+}
+
+.fees-location{
+    font-size:16px;
+}
+
+thead th{
+    padding:12px;
+    font-size:14px;
+}
+
+tbody td{
+    padding:12px;
+    font-size:14px;
+}
+
+.note-card{
+    font-size:15px;
+}
+
+}

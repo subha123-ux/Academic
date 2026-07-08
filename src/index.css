@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   Global Reset
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+    color:#1e293b;
+    overflow-x:hidden;
+    transition:0.3s ease;
+}
+
+/* ===========================
+   Common Elements
+=========================== */
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-family:inherit;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+h1{
+    font-size:3rem;
+    font-weight:700;
+    color:#0f172a;
+}
+
+h2{
+    font-size:2.3rem;
+    font-weight:700;
+    color:#0f172a;
+}
+
+h3{
+    font-size:1.4rem;
+    font-weight:600;
+    color:#0f172a;
+}
+
+p{
+    font-size:1rem;
+    color:#475569;
+    line-height:1.8;
+}
+
+/* ===========================
+   Default Section Padding
+=========================== */
+
+section{
+    padding:80px 0;
+}
+
+/* ===========================
+   Smooth Card Animation
+=========================== */
+
+.course-card,
+.stat-card,
+.why-card,
+.gallery-card,
+.info-card,
+.contact-form{
+    transition:all .3s ease;
+}
+
+.course-card:hover,
+.stat-card:hover,
+.why-card:hover,
+.gallery-card:hover,
+.info-card:hover{
+    transform:translateY(-8px);
+}
+
+/* ===========================
+   Selection
+=========================== */
+
+::selection{
+    background:#2563eb;
+    color:#fff;
+}
+
+/* ===========================
+   Scrollbar
+=========================== */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#f1f5f9;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2563eb;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#1d4ed8;
+}
+
+/* ===========================
+   Dark Mode
+=========================== */
+
+body.dark-mode{
+    background:#0f172a;
+    color:#fff;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3{
+    color:#fff;
+}
+
+body.dark-mode p{
+    color:#d1d5db;
+}
+
+body.dark-mode .hero,
+body.dark-mode .stats,
+body.dark-mode .why,
+body.dark-mode .courses,
+body.dark-mode .gallery,
+body.dark-mode .contact,
+body.dark-mode footer{
+    background:#111827;
+}
+
+body.dark-mode .course-card,
+body.dark-mode .stat-card,
+body.dark-mode .why-card,
+body.dark-mode .info-card,
+body.dark-mode .contact-form{
+    background:#1f2937;
+    color:white;
+}
+
+body.dark-mode input,
+body.dark-mode textarea{
+    background:#374151;
+    color:white;
+    border:1px solid #4b5563;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder{
+    color:#cbd5e1;
+}
+
+/* ===========================
+   Back To Top Button
+=========================== */
+
+.top-btn{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#2563eb;
+    color:white;
+    font-size:24px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+    transition:.3s;
+    z-index:999;
+}
+
+.top-btn:hover{
+    background:#0f172a;
+    transform:translateY(-5px);
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:992px){
+
+.container{
+    width:95%;
+}
+
+h1{
+    font-size:2.4rem;
+}
+
+h2{
+    font-size:2rem;
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+    padding:60px 0;
+}
+
+h1{
+    font-size:2rem;
+}
+
+h2{
+    font-size:1.7rem;
+}
+
+h3{
+    font-size:1.2rem;
+}
+
+p{
+    font-size:15px;
+}
+
+}
+
+@media(max-width:480px){
+
+.container{
+    width:94%;
+}
+
+h1{
+    font-size:1.7rem;
+}
+
+h2{
+    font-size:1.5rem;
+}
+
+}
