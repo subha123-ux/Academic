@@ -8,6 +8,10 @@ function Gallery() {
     "/gallery/g3.jpeg",
     "/gallery/g4.jpeg",
     "/gallery/g5.jpeg",
+    "/gallery/g6.jpeg",
+    "/gallery/g7.jpeg",
+    "/gallery/g8.jpeg",
+    "/gallery/g9.jpeg",
     
   ];
 
