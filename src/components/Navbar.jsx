@@ -15,7 +15,7 @@ function Navbar() {
 
         <Link to="/" className="logo">
           <img src="/logo.jpeg" alt="logo" />
-          <span>S&D Programming Hub</span>
+          <span>S.J COACHING</span>
         </Link>
 
         <div

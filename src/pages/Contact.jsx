@@ -32,7 +32,7 @@ function Contact() {
             <div className="info-card">
               <h3>📍 Address</h3>
               <p>
-                S&D Programming Hub
+                S.J COACHING <br />
                 <br />
                 Bara Kanthalia, Barrackpore, Kolkata - 700121
               </p>
@@ -41,7 +41,6 @@ function Contact() {
             <div className="info-card">
               <h3>📞 Phone</h3>
               <p>+91 9832591226</p>
-              <p>+91 6296166280</p>
             </div>
 
             <div className="info-card">

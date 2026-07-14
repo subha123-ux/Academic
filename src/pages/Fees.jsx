@@ -25,7 +25,7 @@ function Fees() {
       <div className="container">
 
         <h1 className="fees-title">
-          S&amp;D Programming Hub Fee Structure
+          S.J COACHING Fee Structure
         </h1>
 
         <p className="fees-location">

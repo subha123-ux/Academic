@@ -16,11 +16,11 @@ function Home() {
 
             <h1>
               Welcome To <br />
-              <span>S&amp;D Programming Hub</span>
+              <span>S.J COACHING</span>
             </h1>
 
             <p>
-                Are you ready to embark on a journey of coding excellence? Join S&D Programming Hub today and unlock your potential in the world of programming!
+                Are you ready to embark on a journey of coding excellence? Join S.J COACHING today and unlock your potential in the world of programming!
                 Wheather you're a school student, college student, or a working professional, our courses are designed to help you gain real-world skills and confidence.
             </p>
 
@@ -55,7 +55,7 @@ function Home() {
         <div className="container stats-container">
 
           <div className="stat-card">
-            <h2>500+</h2>
+            <h2>100+</h2>
             <p>Students</p>
           </div>
 

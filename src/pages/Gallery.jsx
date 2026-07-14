@@ -26,7 +26,7 @@ function Gallery() {
 
         <p className="gallery-subtitle">
           Explore moments from our classes, workshops, coding sessions,
-          seminars, and student achievements at S&D Programming Hub.
+          seminars, and student achievements at S.J COACHING.
         </p>
 
         <div className="gallery-grid">

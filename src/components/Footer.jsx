@@ -7,7 +7,7 @@ function Footer() {
 
       <div className="container">
 
-        <h2>S&D Programming Hub</h2>
+        <h2>S.J COACHING</h2>
 
         <p>
           Learn Programming with Practical Projects and Expert Guidance.
@@ -23,13 +23,8 @@ function Footer() {
           <div className="contact-list">
 
             <div>
-              📞 <strong>Subhajit</strong><br />
+              📞 <strong>Subhajit Mal (Trainer at NIIT FOUNDATION)</strong><br />
               9832591226
-            </div>
-
-            <div>
-              📞 <strong>Dhriti Kumar</strong><br />
-              6296166280
             </div>
 
           </div>
@@ -37,7 +32,7 @@ function Footer() {
         <hr />
 
         <p className="copyright">
-          © 2026 S&D Programming Hub. All Rights Reserved.
+          © 2026 S.J COACHING. All Rights Reserved.
         </p>
 
       </div>
